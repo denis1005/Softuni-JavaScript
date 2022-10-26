@@ -1,0 +1,27 @@
+
+a {
+    text-decoration:none;
+    color:rgb(11, 193, 11);
+    margin-left: 30px;
+}
+
+h1 {
+    margin-right:90px;
+}
+h1,nav,li {
+    display: inline-block;
+}
+
+header {
+   border-bottom: 4px solid black;
+   margin-top: 30px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100
+}
