@@ -1,0 +1,33 @@
+div {
+   position: relative;
+   height: 50vh;
+   overflow: hidden;
+}
+
+section img {
+    height: 200px;
+    box-shadow: 6px 6px rgb(0, 0, 0);
+}
+
+div.first {
+    background-image: linear-gradient(to right,blue ,lightgreen);
+}
+div.second {
+     background-image: linear-gradient(to right,purple ,orange);
+}
+
+section {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+i {
+        position: absolute;
+
+    color: aliceblue;
+    right: 6px;
+    bottom: 12px;
+}
+
