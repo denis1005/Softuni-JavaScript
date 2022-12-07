@@ -1,0 +1,16 @@
+<div class="container">
+        <ng-container *ngIf="isLogged">
+                <main>
+                        <app-themes></app-themes>
+                </main>
+                <aside>
+                        <app-posts></app-posts>
+                </aside>
+        </ng-container>
+
+        <ng-container *ngIf="!isLogged">
+                <app-home></app-home>
+        </ng-container>
+       
+
+</div>
